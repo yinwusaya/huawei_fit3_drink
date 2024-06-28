@@ -1,0 +1,12 @@
+{
+  "apiType": 'faMode',
+  "buildOption": {
+  },
+  "targets": [
+    {
+      "name": "default"
+      ,
+      "runtimeOS":"HarmonyOS"
+    }
+  ]
+}

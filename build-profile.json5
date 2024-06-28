@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "0000001C502D475FF268766DFCCDDC5FB63B51CDD8D2C003E156A749C5010B3C0966986FB811C213ADABDA31",
+          "certpath": "D:/key/fit3.cer",
+          "keyAlias": "fit3",
+          "keyPassword": "0000001C7200740775CF90F1565F892C44162E265907FDC6DAC88F292FB9712FEACEA2B1FA7D03AD46D8ADC7",
+          "profile": "D:/key/喝水提醒Debug.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "D:/key/fit3.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 8,
+    "compatibleSdkVersion": 8,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
